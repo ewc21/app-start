@@ -1,0 +1,30 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# === Virtual Environment ===
+venv/
+
+# === VS Code ===
+.vscode/
+*.code-workspace
+
+# === Environment & config ===
+.env
+*.yaml
+*.yml
+
+# === Node (if using React or Next.js frontend) ===
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+frontend/.env*
+
+# === Log and system files ===
+*.log
+.DS_Store
+Thumbs.db
